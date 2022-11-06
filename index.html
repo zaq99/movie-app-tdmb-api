@@ -10,7 +10,7 @@
     <script src="./js/script.js" defer></script>
     <link rel="stylesheet" href="assets/style.css">
     <!-- <link rel="stylesheet" href="assets/responsive.css"> -->
-    <title>Nonton Film</title>
+    <title>Rekomen Film</title>
 </head>
 
 <body class="body-bg">
@@ -19,10 +19,11 @@
     <header>
         <nav class="container navbar">
             <div class="container-fluid">
-                <a class="navbar-brand">Nonton Film.</a>
+                <a class="navbar-brand fw-bold text-white">Rekomendasi Film.</a>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <input id="search" class="form-control bg-dark text-light me-2" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button id="tombol-cari" class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>
         </nav>
@@ -36,7 +37,7 @@
             <h1>Judul Film</h1>
             <p>tanggal rilis</p>
             <p>rating</p>
-            <button class="btn btn-success">Tonton</button>
+            <a href="https://www.themoviedb.org/movie" class="btn btn-success">Tonton</a>
         </section>
         <section class="pembungkus-film mt-5">
             <div class="container d-flex gap-2 justify-content-between flex-wrap" id="list-film">

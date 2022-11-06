@@ -10,20 +10,10 @@ body{
     color: #fff;
 }
 
+header{
+    background: rgba(0, 0, 0, 0.4);
+}
+
 header nav{
     height: 80px;
-}
-
-.pembungkus-film{
-    overflow-x: scroll;
-}
-
-.pembungkus-film .keterangan-film{
-    margin-top: -10px;
-    font-size: 14px;
-}
-.list-film > .poster-film{
-    background: #f4f4f4;
-    width: 200px;
-    height: 250px;
 }
